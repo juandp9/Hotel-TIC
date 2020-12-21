@@ -1,4 +1,4 @@
-# hotel-TIC-front
+# hotel-TIC 
 
 > A Vue.js project
 
