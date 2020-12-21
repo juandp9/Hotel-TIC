@@ -45,7 +45,7 @@ export default {
         };
         console.log(datosJson)
         axios
-            .delete("http://127.0.0.1:8000/reservas/eliminar", {data: datosJson})
+            .delete("https://hotel-tic-back.herokuapp.com/reservas/eliminar", {data: datosJson})
             .then(response => {
             alert(response.data.mensaje);
             })
