@@ -41,7 +41,7 @@ export default {
             fecha_fin: this.fecha_fin
         };
         axios
-            .post("http://127.0.0.1:8000/reservas/crear", datosJson)
+            .post("https://hotel-tic-back.herokuapp.com/reservas/crear", datosJson)
             .then(response => {
             alert(response.data.mensaje);
             })
