@@ -32,7 +32,7 @@ export default {
   },
   beforeCreate: function() {
     axios
-      .get("http://127.0.0.1:8000/reservas/ver-reservas/")
+      .get("https://hotel-tic-back.herokuapp.com/reservas/ver-reservas/")
       .then(response => {
         this.lista_reservas_resumida = response.data;
       })
